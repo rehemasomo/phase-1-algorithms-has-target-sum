@@ -64,7 +64,70 @@ When you're satisfied with your code, run `npm test` to run the tests and
 submit the lab in CodeGrade.
 
 Once you've completed your implementation, determine what the time and space
-complexity of your algorithm is using Big O notation. If you came up with more
+complexity of your algorithm is using## Learning Goals
+
+- Practice algorithmic problem solving
+- Identify the Big O of an algorithm
+
+## Introduction
+
+Time for more practice! Fork and clone this lab, then **read the instructions
+before running any tests**.
+
+## Instructions
+
+Write a function called `hasTargetSum` that receives two arguments:
+
+- an `array` of integers
+- a `target` integer
+
+The function should return true if any pair of numbers in the array adds up to
+the target number.
+
+Here are a few examples:
+
+```js
+hasTargetSum([3, 8, 12, 4, 11, 7], 10);
+// returns true, since 3 and 7 add up to 10console.log("Expecting: true");
+    console.log("=>", hasTargetSum([3, 8, 12, 4, 11, 7], 10));
+
+    console.log("");
+
+    console.log("Expecting: true");
+    console.log("=>", hasTargetSum([22, 19, 4, 6, 30], 25));
+
+    console.log("");
+
+    console.log("Expecting: false");
+    console.log("=>", hasTargetSum([1, 2, 5], 4));
+
+
+hasTargetSum([22, 19, 4, 6, 30], 25);
+// returns true, since 19 and 6 add up to 25
+
+hasTargetSum([1, 2, 5], 4);
+// returns false, since no pair of numbers adds up to 4
+```
+
+This is a challenging problem, but you have the tools to come up with a
+solution! It's ok if your initial solution isn't optimal from a runtime
+perspective; it's totally fine to brute force your way to a solution and get
+something working before trying to optimize.
+
+## Problem Solving Approach
+
+Use the
+[problem solving process](https://github.com/learn-co-curriculum/phase-1-algorithms-what-is-an-algorithm)
+described in the previous lesson to come up with an approach to the problem and
+write your solution:
+
+1. Rewrite the Problem in Your Own Words
+2. Write Your Own Test Cases
+3. Pseudocode
+4. Code
+5. Make It Clean and Readable
+6. Optimize
+ Big O notation. If you came up with more
 than one approach, what are the tradeoffs? Which is more efficient?
 
 ## Conclusion
